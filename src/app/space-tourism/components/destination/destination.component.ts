@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Destination } from '../models/destination';
-import { DataService } from '../services/data.service';
+import { Destination } from '../../models/destination';
+import { DataService } from '../../services/data.service';
 
 @Component({
   selector: 'app-destination',

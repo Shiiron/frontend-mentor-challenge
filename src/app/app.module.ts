@@ -3,13 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainPageComponent } from './main-page/main-page.component';
-import { DestinationComponent } from './destination/destination.component';
-import { CrewComponent } from './crew/crew.component';
-import { TechnologyComponent } from './technology/technology.component';
-import { MainMenuComponent } from './main-menu/main-menu.component';
+import { MainPageComponent } from './space-tourism/components/main-page/main-page.component';
+import { DestinationComponent } from './space-tourism/components/destination/destination.component';
+import { CrewComponent } from './space-tourism/components/crew/crew.component';
+import { TechnologyComponent } from './space-tourism/components/technology/technology.component';
+import { MainMenuComponent } from './space-tourism/components/main-menu/main-menu.component';
+import { SelectProjectComponent } from './select-project/components/select-project.component';
 
-import { DataService } from './services/data.service';
+import { DataService } from './space-tourism/services/data.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DataService } from './services/data.service';
     DestinationComponent,
     CrewComponent,
     TechnologyComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    SelectProjectComponent
   ],
   imports: [
     BrowserModule,

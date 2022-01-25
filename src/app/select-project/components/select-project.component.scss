@@ -1,0 +1,20 @@
+.project-container {
+  height: 100%;
+  background: #333030;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.project-button {
+  color: rgb(75, 83, 197);
+  padding-block: 3rem;
+  padding-inline: 6rem;
+  margin: 4rem;
+  border: none;
+  border-radius: 15px;
+  font-size: 5rem;
+  &:hover {
+    cursor: pointer;
+  }
+}

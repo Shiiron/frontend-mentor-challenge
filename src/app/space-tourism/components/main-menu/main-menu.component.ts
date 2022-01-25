@@ -7,7 +7,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./main-menu.component.scss'],
 })
 export class MainMenuComponent implements OnInit {
-  constructor(private route: ActivatedRoute) {}
+  constructor() {}
 
   ngOnInit(): void {}
   toggleNav() {
