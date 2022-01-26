@@ -1,0 +1,18 @@
+.country-container {
+  height: 100%;
+  display: grid;
+  grid-template-rows: max-content 1fr;
+}
+
+.country-list-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 5.5rem;
+  gap: 5.5rem;
+}
+
+@media (min-width: 45em) {
+  .country-list-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

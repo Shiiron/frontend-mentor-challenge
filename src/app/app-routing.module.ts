@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CountryListComponent } from './country-list/components/country-list/country-list.component';
 import { SelectProjectComponent } from './select-project/components/select-project.component';
 import { CrewComponent } from './space-tourism/components/crew/crew.component';
 import { DestinationComponent } from './space-tourism/components/destination/destination.component';
@@ -18,7 +19,7 @@ const routes: Routes = [
   },
   { path: 'country-list',
     children : [
-
+      { path: 'list', component: CountryListComponent }
     ]
   }
 

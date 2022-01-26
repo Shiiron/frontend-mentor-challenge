@@ -1,11 +1,11 @@
 @import "./assets/reset.scss";
 @import "./assets/space-tourism-assets/space-tourism-general.scss";
+@import "./assets/country-list/country-list.scss";
 
 html {
   height: 100%;
   width: 100%;
   font-size: 62.5%; // For easy use of rem
-  font-family: "Bellefair";
 }
 
 body {
@@ -15,4 +15,40 @@ body {
 
 img {
   max-width: 100%;
+}
+
+.fw--100 {
+  font-weight: 100;
+}
+.fw--200 {
+  font-weight: 200;
+}
+.fw--300 {
+  font-weight: 300;
+}
+.fw--400 {
+  font-weight: 400;
+}
+.fw--500 {
+  font-weight: 500;
+}
+.fw--600 {
+  font-weight: 600;
+}
+.fw--700 {
+  font-weight: 700;
+}
+.fw--800 {
+  font-weight: 800;
+}
+.fw--900 {
+  font-weight: 900;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
 }

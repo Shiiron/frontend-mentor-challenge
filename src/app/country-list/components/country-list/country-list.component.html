@@ -1,0 +1,9 @@
+<div class="country-container">
+    <app-country-header></app-country-header>
+
+    <div class="dark-mode--background country-list-container">
+        <ng-container *ngFor="let country of countryList">
+            <app-country-list-item [country]="country"></app-country-list-item>
+        </ng-container>
+    </div>
+</div>
